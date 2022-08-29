@@ -1,0 +1,144 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
+  <title>AI FOREST HEALERS - Collection information</title>
+  <style>
+    html {
+      font-family: 'Fira Code', monospace;
+      display: table;
+      margin: 10px auto;
+    }
+    body {
+      width: 100%;
+      color: white; 
+      background-color: black;
+      margin: auto;
+    }
+    h1 {
+      margin-top: 20px;
+      text-align: center;
+    }
+    a:link {
+      text-decoration: none;
+      color: white;
+    }
+    a:visited {
+      color: white;
+    }
+    .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 256px);
+    grid-gap: 15px;
+    margin-bottom: 50px;
+    }
+    .huePicker {
+      display: block;
+      left: 50%;
+      transform: translateX(-50%);
+      background: black;
+      padding: 10px;
+      margin: auto;
+      position: fixed;
+      z-index: 5;
+    }
+  </style>
+</head>
+<body>
+  <h1><a href="https://www.fxhash.xyz/generative/18715" target="_blank">FOREST HEALERS COLLECTION</a></h1>
+  <div class="huePicker">
+    <label for="points">Healer Hue (<span></span>):</label>
+    <input type="range" name="hue" min="1" max="360" value="0">
+  </div>
+
+  <h2>Child (healer age < 10)</h2>
+  <div class="gallery">
+    <img src="./healers/ayahealer-child-01.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-child-02.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-child-03.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-child-04.jpg" class="ayahealer">
+  </div>
+
+  <h2>Young (10 < healer age < 30)</h2>
+  <div class="gallery">
+    <img src="./healers/ayahealer-young-01.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-young-02.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-young-03.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-young-04.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-young-05.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-young-06.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-young-07.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-young-08.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-young-smiling-01.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-young-smiling-02.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-young-smiling-03.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-young-smiling-04.jpg" class="ayahealer">
+  </div>    
+
+  <h2>Cypher (healer age = 30) [RARE]</h2>
+  <div class="gallery">
+
+    <img src="./healers/ayahealer-cypher-01.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-cypher-02.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-cypher-03.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-cypher-04.jpg" class="ayahealer">
+
+  </div>    
+
+  <h2>Adult (30 > healer age <= 60)</h2>
+  <div class="gallery">
+
+    <img src="./healers/ayahealer-adult-01.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-adult-02.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-adult-03.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-adult-04.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-adult-05.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-adult-06.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-adult-07.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-adult-08.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-adult-09.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-adult-010.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-adult-011.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-adult-012.jpg" class="ayahealer">
+    
+  </div>    
+
+  <h2>Elder (healer age > 60)</h2>
+  <div class="gallery">
+
+    <img src="./healers/ayahealer-elder-01.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-elder-02.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-elder-03.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-elder-04.jpg" class="ayahealer">
+
+    <img src="./healers/ayahealer-elder-smiling-01.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-elder-smiling-02.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-elder-smiling-03.jpg" class="ayahealer">
+    <img src="./healers/ayahealer-elder-smiling-04.jpg" class="ayahealer">
+
+
+  </div>
+
+  <script>
+    const hueInput = document.querySelector('input[name=hue]')
+    console.log(hueInput.value)
+    const hueSpan = document.querySelector('span')
+    console.log(hueSpan)
+    hueSpan.textContent = hueInput.value
+    hueInput.addEventListener('input', (e) => {
+      hueSpan.textContent = hueInput.value
+      var style = document.createElement('style');
+      style.innerHTML = `
+      .ayahealer {
+      filter: hue-rotate(${e.target.value}deg);
+      }
+      `;
+      document.head.appendChild(style);
+    })
+  </script>
+</body>
+</html>
